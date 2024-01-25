@@ -1,6 +1,7 @@
 ﻿public class MainClass {
 	public static int Main(String[] args) {
-		Console.WriteLine("Hello, World!");
+		Game game = new Game(800, 600, "hello worl");
+		game.Run();
 
 		return 0;
 	}
